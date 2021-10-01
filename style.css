@@ -1,0 +1,30 @@
+body{
+    background: #ffc600;
+    background: linear-gradient(to left, rgb(89, 173, 100), rgb(204, 184, 184));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;   
+}
+
+h1{
+    text-align: center;
+}
+
+.container2Class{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.box{
+    border: 2px solid black;
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(155, 168, 170);
+}
